@@ -2,11 +2,12 @@
 
 Currently Liferay Administrator has to visit asset specific pages to gather the statistics about individual Assets. For example, to see view count and average rating for any document and media file or web content admin has to open individual document. 
 
-With the help of Dashboard, Administrator can view all the Assets on single page along with all the relative attributes. Portlet has a searching and sorting feature. Portlet provides statistics about Web Content, Blogs, Wiki, Document and Media, Forms and Users.
+With the help of Dashboard, Administrator can view all the Assets on single page along with all the relative attributes. Portlet provides statistics about Web Content, Blogs, Wiki, Document and Media, Forms and Users.
 
 Asset Dashboard component has below capabilities.
 *	Configurable assets and date format
-*	View asset wise total count 
+*	View asset wise total count
+*	Sorting and searching feature
 *	View asset status wise total count  
 *	View asset different attributes like rating, like, dislike, status, version, total view, etc
 
