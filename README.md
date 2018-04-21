@@ -1,23 +1,25 @@
 # Liferay 7 Asset Dashboard
 
-To get the liferay assets statistics such as Blog, Wiki, Document & Media, User's, Form's, and Web Content.
+Currently Liferay Administrator has to visit asset specific pages to gather the statistics about individual Assets. For example, to see view count and average rating for any document and media file or web content admin has to open individual document. 
+
+With the help of Dashboard, Administrator can view all the Assets on single page along with all the relative attributes. Portlet has a searching and sorting feature. Portlet provides statistics about Web Content, Blogs, Wiki, Document and Media, Forms and Users.
 
 Asset Dashboard component has below capabilities.
-*	Configure display assets and date format
-*	View Company wise total aseets count 
+*	Configurable assets and date format
+*	View asset wise total count 
 *	View asset status wise total count  
-*	View asset diffrent attributes like rating, like, dislike, status, version, total view, etc
+*	View asset different attributes like rating, like, dislike, status, version, total view, etc
 
 ## Environment
 
-* Liferay 7 - GA5 +
+* Liferay 7 - GA5 +, Liferay DXP
 *	MySQL 5.6 +
 
 ## How to use
 
 1. Download, build and install asset dashboard jar on your server.
 2. Check module status in liferay tomcat server using console log OR using gogo shell.
-3. Now add Assets Statistics portlet on specific page.
+3. Now add Asset Dashboard portlet on specific page.
 
 
 ![ScreenShot](https://user-images.githubusercontent.com/24852574/39044114-dafd5b82-44ac-11e8-9517-b19817fd7620.png)
@@ -28,7 +30,7 @@ Default view should look like below screenshot.
 
 ![ScreenShot](https://user-images.githubusercontent.com/24852574/39044365-8db5daba-44ad-11e8-9f13-a5aadca1be6f.png)
 
-4.  Configure display assets and date format in portlet configuration like below screenshort.
+4.  Configure Assets and date format in portlet configuration like below screenshort.
 
 
 ![ScreenShot](https://user-images.githubusercontent.com/24852574/39044658-76db1818-44ae-11e8-969f-e426fc160be9.png)
@@ -42,7 +44,7 @@ Default view should look like below screenshot.
 ![ScreenShot](https://user-images.githubusercontent.com/24852574/39044984-4f2d9592-44af-11e8-9ce3-24aeee81200b.png)
 
 
-6. Here show the selected asset in detail
+6. To see individual Assets record then click asset specific button. Below are the screenshots for individual Assets.
 
 
 #### Form's ####
