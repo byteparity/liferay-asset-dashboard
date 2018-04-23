@@ -9,7 +9,7 @@ public class LiferayAssetsStatisticsPortletKeys {
 
 	public static final String PORTLET_ID = "com_byteparity_portlet_LiferayAssetsStatisticsPortlet";
 	public static final String PORTLET_CATEGORY = "ByteParity";
-	public static final String PORTLET_DISPLAY_NAME = "Assets Statistics";
+	public static final String PORTLET_DISPLAY_NAME = "Asset Dashboard";
 	public static final int STATUS [] = { WorkflowConstants.ACTION_PUBLISH,WorkflowConstants.ACTION_SAVE_DRAFT,WorkflowConstants.STATUS_ANY,WorkflowConstants.STATUS_APPROVED,WorkflowConstants.STATUS_DENIED,WorkflowConstants.STATUS_DRAFT,WorkflowConstants.STATUS_EXPIRED, WorkflowConstants.STATUS_IN_TRASH,WorkflowConstants.STATUS_INACTIVE, WorkflowConstants.STATUS_INCOMPLETE,WorkflowConstants.STATUS_PENDING,WorkflowConstants.STATUS_SCHEDULED} ;
 	public static final String DATE_FORMAT [] = {"dd-MM-yyyy","MM-dd-yyyy","yyyy-MM-dd","dd MMMM yyyy","dd MMM yyyy"} ;
 	public static final String ASSETS [] = {"Blog","Document & Media","Forms","Users","Wiki","Web Content"} ;
