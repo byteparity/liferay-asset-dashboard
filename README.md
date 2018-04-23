@@ -23,7 +23,7 @@ Asset Dashboard component has below capabilities.
 3. Now add Asset Dashboard portlet on specific page.
 
 
-![ScreenShot](https://user-images.githubusercontent.com/24852574/39044114-dafd5b82-44ac-11e8-9517-b19817fd7620.png)
+![ScreenShot](https://user-images.githubusercontent.com/24852574/39107818-60ff4bdc-46e2-11e8-8c16-10664c9bafd5.png)
 
 
 Default view should look like below screenshot.
