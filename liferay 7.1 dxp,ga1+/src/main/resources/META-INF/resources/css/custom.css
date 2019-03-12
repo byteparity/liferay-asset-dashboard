@@ -1,0 +1,118 @@
+div.card {
+ 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+  text-align: center;
+}
+
+div.head {
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
+
+div.containt {
+    padding: 5px;
+}
+
+
+div.activeCard {
+	box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.9);
+  	text-align: center;
+}
+.badge {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    line-height: 1.1;
+    margin-bottom: .125rem;
+    margin-right: .25rem;
+    margin-top: .125rem;
+    max-width: 100%;
+    white-space: inherit;
+    word-wrap: break-word;
+    color: white;
+    padding: 6px;
+    font-size: 12px;
+}
+.status{
+	width: 100px;
+    display: table;
+    color: white;
+    padding: 6px;
+    font-size: 12px;
+}
+.limited{
+	white-space: nowrap;
+    width: 100%;                   
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.bg-success {
+    background-color: #ccced0 !important;
+    color: #080808 !important;
+}
+.bg-dark {
+    background-color: #5e656b !important;
+    color: #ffffff !important;
+}
+
+.col-md-4 {
+    float: left;
+}
+
+
+
+/* The spinner */
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+.spinner,
+.spinner:before {
+   width: 50px;
+   height: 50px;
+  box-sizing: border-box;
+}
+
+.spinner:before {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  border-top-color: #333;
+  animation: spinner .6s linear infinite;
+}
+
+.spinner-absolute {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+/* Animations */
+
+.spinner-add,
+.spinner-remove {
+  animation-fill-mode: both;
+  animation-duration: .4s;
+}
+
+.spinner-add {
+  animation-name: spinner-add;
+}
+
+@keyframes spinner-add {
+  from {transform: scale(0);}
+  to {transform: scale(1);}
+}
+
+.spinner-remove {
+  animation-name: spinner-remove;
+}
+
+@keyframes spinner-remove {
+  to {transform: scale(0);}
+}

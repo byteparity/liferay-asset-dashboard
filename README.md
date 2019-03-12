@@ -1,4 +1,4 @@
-# Liferay 7 Asset Dashboard
+# Liferay Asset Dashboard
 
 Currently Liferay Administrator has to visit asset specific pages to gather the statistics about individual Assets. For example, to see view count and average rating for any document and media file or web content admin has to open individual document. 
 
@@ -13,7 +13,7 @@ Asset Dashboard component has below capabilities.
 
 ## Environment
 
-* Liferay 7 - GA5 +, Liferay DXP
+* Liferay 7 - GA5 +, Liferay 7.1 - GA1 +, Liferay DXP
 * MySQL 5.6 +
 * Make sure to uncheck Expose global property in JavaScript Loader, (Control Panel -> Configuration -> System Setting -> Foundation -> JavaScript Loader -> Expose global)
 
