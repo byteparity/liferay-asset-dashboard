@@ -96,9 +96,9 @@ public class GetBlogsMVCResourceCommand implements MVCResourceCommand {
 				List<Integer> rating = LiferayAssetsStatisticsUtil.getLikeDislikeByEntryId(blogsEntry.getEntryId());
 				int like = rating != null ? rating.get(0) : 0;
 				long disLike = rating != null ? rating.get(1) : 0;
-				row.add("<span class='glyphicon glyphicon-thumbs-up'></span>&nbsp;&nbsp;"+like);
-				row.add("<span class='glyphicon glyphicon-thumbs-down'></span>&nbsp;&nbsp;"+disLike);
-				row.add("<span class='glyphicon glyphicon-eye-open'></span>&nbsp;&nbsp;"+entries.get(0).getViewCount());
+				row.add("<span class='glyphicon glyphicon-thumbs-up'> " + like + "</span>");
+				row.add("<span class='glyphicon glyphicon-thumbs-down'> " + disLike + "</span>");
+				row.add("<span class='glyphicon glyphicon-eye-open'> " + entries.get(0).getViewCount() + "</span>");
 				row.add(blogsEntry.getUserName());
 				row.add(format.format(blogsEntry.getCreateDate()));
 				row.add(format.format(blogsEntry.getModifiedDate()));

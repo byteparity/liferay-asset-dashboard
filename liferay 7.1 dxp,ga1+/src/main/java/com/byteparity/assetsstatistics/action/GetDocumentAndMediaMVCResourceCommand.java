@@ -117,7 +117,7 @@ public class GetDocumentAndMediaMVCResourceCommand implements MVCResourceCommand
 				dynamicQuery.add(PropertyFactoryUtil.forName("classPK").eq(dlFileVersion.getFileEntryId()));
 				List<AssetEntry> entries = AssetEntryLocalServiceUtil.dynamicQuery(dynamicQuery);
 				row.add("<span class='rating' data-score='"+LiferayAssetsStatisticsUtil.getRatingByEntryId(dlFileVersion.getFileEntryId(), classNameId)+"'></span>");
-				row.add("<span class='glyphicon glyphicon-eye-open'></span>&nbsp;&nbsp;"+entries.get(0).getViewCount());
+				row.add("<span class='glyphicon glyphicon-eye-open'> " + entries.get(0).getViewCount() + "</span>");
 				row.add(dlFileVersion.getUserName());
 				row.add(format.format(dlFileVersion.getCreateDate()));
 				row.add(format.format(dlFileVersion.getCreateDate()));
