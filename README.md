@@ -13,7 +13,7 @@ Asset Dashboard component has below capabilities.
 
 ## Environment
 
-* Liferay 7 - GA5 +, Liferay 7.1 - GA1 +, Liferay DXP
+* Liferay 7.0 + DXP, Liferay 7.0 CE-GA5 +, Liferay 7.1 CE-GA1 +
 * MySQL 5.6 +
 * Make sure to uncheck Expose global property in JavaScript Loader, (Control Panel -> Configuration -> System Setting -> Foundation -> JavaScript Loader -> Expose global)
 
